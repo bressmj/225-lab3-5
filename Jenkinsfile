@@ -5,8 +5,8 @@ pipeline {
         DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'
         DOCKER_IMAGE = 'cithit/alexanmf'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
-        GITHUB_URL = 'https://github.com/miamioh-cit/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('taylorw8-test-credentials')                                                         //<------change this
+        GITHUB_URL = 'https://github.com/alexanmf/225-lab3-5.git'                                          //<------change this
+        KUBECONFIG = credentials('alexanmf-test-credentials')                                                         //<------change this
     }
 
     stages {
