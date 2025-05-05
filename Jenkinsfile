@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/alexanmf'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/alexanmf/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('alexanmf-test-credentials')                                                         //<------change this
+        KUBECONFIG = credentials('alexanmf-225')                                                         //<------change this
     }
 
     stages {
